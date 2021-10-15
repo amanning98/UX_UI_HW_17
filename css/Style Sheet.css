@@ -12,6 +12,16 @@ header {
     grid-area: header;
     width: 100%;
   }
+
+  .navigation{
+      display: flex;
+  }
+  .logo img{
+      width: 35px;
+  }
+  .navigation nav {
+    display: flex;
+}
   section{
     grid-area: section;
     display: grid;
@@ -29,7 +39,7 @@ header {
     grid-area: content;
 }
 
-
+/*
 .inline-block {
     display: inline-block;
     vertical-align: top;
